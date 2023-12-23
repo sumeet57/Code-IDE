@@ -1,0 +1,150 @@
+
+*{
+margin: 0%;
+padding: 0%;
+}
+main{
+width: 100%;
+height: 100%;
+display: inline;
+
+}
+hr{
+    border: rgb(0, 0, 0) 1px solid;
+    
+}
+aside{
+   float: right;
+   text-align: center;
+   width: 50%;
+   height: 100vh;
+   padding: 20px;
+   box-sizing: border-box;
+}
+main div.edit{
+    width: 47.5%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+nav{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 40px;
+    
+    
+}
+nav button{
+    padding: 10px;
+    width: 150px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: 1px solid white;
+}
+
+nav button{
+    transition: all 0.4s ease-in-out;
+}
+
+
+main div textarea{
+    font-size: 25px;
+    resize: none;
+    border-radius: .5rem;
+}
+main div textarea#htmle{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(184, 171, 150);
+    border: 2px solid black;
+    padding: 10px;
+}
+main div textarea#csse{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: rgb(128, 147, 155);
+    padding: 15px;
+}
+main div textarea#jse{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    display: none;
+    background-color: rgb(164, 164, 138);
+    padding: 15px;
+} 
+#output{
+    border: 2px solid black;
+    background-color: rgb(198, 198, 198);
+    border-radius: .4rem;
+}
+.in{
+    font-size: 25px;
+    color: white;
+    padding: .1rem 1rem;
+    padding-top: .4rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    
+}
+.out{
+    font-size: 25px;
+    color: white;
+    padding: .1rem 1rem;
+    padding-top: .4rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+@media (max-width:600px) {
+    main div.edit{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    aside{
+        float: left;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+    }
+    main div textarea#htmle{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    main div textarea#csse{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    main div textarea#jse{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    main div textarea{
+        font-size: 15px;
+    }
+    nav button{
+        padding: 5px;
+        width: 100px;
+    }
+}
+@media (max-width:500px) {
+    nav button{
+        width: 70px;
+        font-size: 20px;
+    }
+    nav{
+        word-spacing: 20px;
+    }
+}
